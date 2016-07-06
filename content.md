@@ -6,10 +6,11 @@ https://www.flickr.com/photos/37060680@N04/4441496167 <!-- .element: class="cred
 Or how to use docker to leverage dependency management and 
 reduce hard work
 
+<small>Version 0.1.0</small>
+
 ====
 
 <!-- .slide: class="half-slide" data-background="url(img/paulodiovani.jpg)" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="right" -->
-
 
 ### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
 
