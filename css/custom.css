@@ -36,3 +36,19 @@ and increase font size
 .reveal pre code {
   max-height: none;
 }
+
+/*
+Image credits
+ */
+.credits {
+  font-size: .4em !important;
+  font-style: italic !important;
+  display: block;
+}
+
+.credits::before {
+  content: "Image credits:";
+  font-size: .8em !important;
+  text-transform: uppercase;
+  padding-right: .4em;
+}
