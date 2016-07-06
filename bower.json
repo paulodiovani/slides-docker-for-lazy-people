@@ -5,7 +5,14 @@
     "Paulo Diovani <paulo@diovani.com>"
   ],
   "description": "Or how to use docker to leverage dependency management and reduce hard work",
-  "main": "index.html",
+  "main": [
+    "css/custom.css",
+    "img/*.{jpg,png,svg}",
+    "js/pointer-fix.js",
+    "content.md",
+    "cover.jpg",
+    "index.html"
+  ],
   "keywords": [
     "talk",
     "docker",
