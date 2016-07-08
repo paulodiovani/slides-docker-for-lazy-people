@@ -81,7 +81,7 @@ Note:
 >
 > ![future](img/future.jpg)
 
-Source: https://circleci.com/blog/its-the-future/
+_Source: https://circleci.com/blog/its-the-future/_
 
 Note:
 A fun post on circle-ci blog introduces Docker and containers
@@ -128,7 +128,7 @@ https://infoslack.com/rubyconf2015/docker/#/13 <!-- .element: class="credits" --
 Note:
 In the end, people just walk away from Docker. :'(
 
-====
+----
 
 ## Being practical
 
@@ -154,6 +154,23 @@ For me to start using it
 
 Note:
 In short, this is why
+
+====
+
+> ## Finally fired after 6 years
+> 
+> ![roy](img/roy.jpg)
+> https://www.engadget.com/2016/01/08/blade-runner-replicant-birthday/ <!-- .element: class="credits" -->
+
+~~_Source: https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_~~ <!-- .element: class="more" -->
+
+  _Archive: https://web.archive.org/web/20160523114950/https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_ <!-- .element: class="more" -->
+
+Note:
+A programmer, as said on reddit, had 6 years
+doing nothing after automatic some test tasks.
+
+Image: Roy Batty, from Blade Runner movie (1982)
 
 ----
 
