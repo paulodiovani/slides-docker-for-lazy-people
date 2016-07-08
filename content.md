@@ -272,7 +272,7 @@ https://hub.docker.com/
   + https://www.docker.com/products/docker#/linux
 - Mac OSX
   + https://www.docker.com/products/docker#/mac
-- MS Window
+- MS Windows
   + https://www.docker.com/products/docker#/windows
 
 ====
@@ -303,7 +303,7 @@ The easiest distro to install Docker
   + requires Yosemite `10.10`
   + uses a `xhyve` based Hypervisor
 - Docker for Windows (`since 1.12-rc3`)
-  + requires Requires Window `10 64bit`
+  + requires Window `10 64bit`
   + uses `Hyper-V`
 
 Note:
