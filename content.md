@@ -237,7 +237,17 @@ environment.
 
 ====
 
-## What do we need?
+### Images vs. Containers
+
+- A Docker **image** is a _read only_ layer that can
+  be packaged and distributed.
+  + Images remain exactly the same wherever environment 
+    they are used. <!-- .element: class="fragment" -->
+- A Docker **container** is an instance of an image. it's
+  a _writable_ layer used to run commands or store data.
+====
+
+### What do we need?
 
 - Docker Engine
   + https://docker.com
@@ -245,6 +255,14 @@ environment.
   + https://docs.docker.com/compose/
 - Docker Hub
   + https://hub.docker.com/
+
+====
+
+#### Docker Hub
+
+![docker-hub](img/docker-hub.jpg)
+
+https://hub.docker.com/
 
 ====
 
