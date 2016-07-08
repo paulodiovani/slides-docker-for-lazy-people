@@ -63,3 +63,12 @@ Truncate text/links
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
+/*
+Force lowercase (used for titles)
+ */
+.lowercase {
+  font-weight: normal !important;
+  text-transform: lowercase;
+}

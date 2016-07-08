@@ -313,3 +313,129 @@ VM, environment variables and etc.
 
 Recenty, with 1.12, Docker uses a native client
 and native Hypervisors.
+
+----
+
+## Managing dependencies should be easy
+
+====
+<!-- .slide: data-transition="slide-in fate-out" -->
+
+### Potential application
+
+- Ruby on Rails app
+- PostgreSQL Database <!-- .element: class="fragment" -->
+- Redis for Sidekick Worker <!-- .element: class="fragment" -->
+- Elasticsearch for full-text searches <!-- .element: class="fragment" -->
+
+====
+<!-- .slide: data-transition="fade" -->
+
+### Potential application
+
+- My code
+  + Ruby on Rails app
+- Volatile data
+  + PostgreSQL Database
+  + Redis for Sidekick Worker
+  + Elasticsearch for full-text searches
+
+====
+<!-- .slide: data-transition="fade-in slide-out" -->
+
+### Potential application
+
+- Host Machine
+  + Ruby on Rails app
+- Docker containers
+  + PostgreSQL Database
+  + Redis for Sidekick Worker
+  + Elasticsearch for full-text searches
+
+====
+
+### Do not install what you won't actively use
+
+- Cache stores
+- CI Services
+- Compilers
+- Databases
+- HTTP Servers
+- Interpreters
+- Libraries
+- Load Balancer
+- Proxy Servers
+
+====
+
+#### Why not?
+
+- difficult to install
+- version restrictions across different environments
+- waste of time
+
+----
+
+## Docker compose
+
+> Compose is a tool for defining and running multi-container Docker applications.
+
+====
+
+### Orchestration
+
+> **Orchestration** is the automated arrangement, coordination, and management of complex computer systems, middleware and services.
+
+*Source: https://en.wikipedia.org/wiki/Orchestration_(computing)* <!-- .element: class="more" -->
+
+====
+
+### The <b class="lowercase">docker-compose.yml</b> file
+
+`docker-compose.yml`
+
+- Define services
+- Restrict networks
+- Mount volumes
+- Forward ports
+
+====
+
+### Using Docker Compose
+
+```bash
+$ docker-compose up    # create/run containers
+$ docker-compose up -d # create/run containers in bg
+$ docker-compose start # start exiting containers
+$ docker-compose stop  # stop containers
+$ docker-compose rm -v # remove container
+$ docker-compose logs  # see output logs
+```
+
+----
+
+## Sample application 1
+
+Running only dependencies on Docker
+
+====
+
+```yml
+version: '2'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: lazy_people
+    ports: ["5432:5432"]
+
+  redis:
+    image: redis
+    ports: ["6379:6379"]
+
+  search:
+    image: elasticsearch
+    ports: ["9200:9200", "9300:9300"]
+```
+
