@@ -328,6 +328,10 @@ and native Hypervisors.
 - Redis for Sidekick Worker <!-- .element: class="fragment" -->
 - Elasticsearch for full-text searches <!-- .element: class="fragment" -->
 
+Note:
+Lets consider this potential, very common,
+appication.
+
 ====
 <!-- .slide: data-transition="fade" -->
 
@@ -340,6 +344,11 @@ and native Hypervisors.
   + Redis for Sidekick Worker
   + Elasticsearch for full-text searches
 
+Note:
+The only layer I'm always working on is the
+app code itself. Everything else I just don't
+bother on configuring.
+
 ====
 <!-- .slide: data-transition="fade-in slide-out" -->
 
@@ -351,6 +360,10 @@ and native Hypervisors.
   + PostgreSQL Database
   + Redis for Sidekick Worker
   + Elasticsearch for full-text searches
+
+Note:
+So, I could have only the Rails app on my machine
+and let everything else on containers.
 
 ====
 
@@ -366,19 +379,31 @@ and native Hypervisors.
 - Load Balancer
 - Proxy Servers
 
+Note:
+The idea is to NOT install what you doesn't have
+to change/configure/edit frequently.
+
 ====
 
 #### Why not?
 
 - difficult to install
 - version restrictions across different environments
+- waste of system resources
 - waste of time
+
+Note:
+Development dependencies are usually hard to install
+and configure. And they heavy a lot on the machine.
 
 ----
 
 ## Docker compose
 
 > Compose is a tool for defining and running multi-container Docker applications.
+
+Note:
+For now on, we'll be using Docker compose
 
 ====
 
@@ -387,6 +412,9 @@ and native Hypervisors.
 > **Orchestration** is the automated arrangement, coordination, and management of complex computer systems, middleware and services.
 
 *Source: https://en.wikipedia.org/wiki/Orchestration_(computing)* <!-- .element: class="more" -->
+
+Note:
+Compose basicly does service orchestration.
 
 ====
 
@@ -399,6 +427,11 @@ and native Hypervisors.
 - Mount volumes
 - Forward ports
 
+It can (and must) be versioned alongside code.
+
+Note:
+Everything is set up using a YAML config file.
+
 ====
 
 ### Using Docker Compose
@@ -409,14 +442,31 @@ $ docker-compose up -d # create/run containers in bg
 $ docker-compose start # start exiting containers
 $ docker-compose stop  # stop containers
 $ docker-compose rm -v # remove container
+$ docker-compose ps    # check containers
 $ docker-compose logs  # see output logs
 ```
+
+Note:
+...and controller by a small bunch of commands.
 
 ----
 
 ## Sample application 1
 
-Running only dependencies on Docker
+Ruby on Rails + PostgreSQL + Redis + ElasticSearch
+
+Note:
+Learning by example.
+
+Let's use our potential application services.
+
+====
+
+### Running only dependencies on Docker
+
+Note:
+In this example, we'll ignore the app and
+just dealwith dependencies.
 
 ====
 
@@ -439,3 +489,6 @@ services:
     ports: ["9200:9200", "9300:9300"]
 ```
 
+====
+
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79064?size=big" id="asciicast-iframe-79064" name="asciicast-iframe-79064" scrolling="yes" width="100%" height="768"></iframe>
