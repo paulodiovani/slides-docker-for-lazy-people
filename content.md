@@ -33,9 +33,9 @@ Image: Roy Batty, from Blade Runner movie (1982)
 
 ### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
 
-Tecnólogo em Sistemas para Internet pela Universidade Feevale.
-Desenvolvedor na Codeminer 42.
-Usuário GNU/Linux.
+Technologist in Systems for Internet by Feevale University.
+Software Enginer at Codeminer 42.
+GNU/Linux user since 2005.
 
 [blog.diovani.com][blog]
 
