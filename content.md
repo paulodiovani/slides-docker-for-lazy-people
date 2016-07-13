@@ -458,6 +458,14 @@ Note:
 Development dependencies are usually hard to install
 and configure. And they heavy a lot on the machine.
 
+====
+
+### How?
+
+![lego-whale](img/docker-lego-whale.jpg)
+
+https://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure/ <!-- .element: class="credits" -->
+
 ----
 
 ## Docker compose
