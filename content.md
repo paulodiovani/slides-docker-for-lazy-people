@@ -546,7 +546,7 @@ Let's use our potential application services.
 
 ====
 
-### Running only dependencies on Docker
+Running **only dependencies** on Docker
 
 Note:
 In this example, we'll ignore the app and
@@ -586,3 +586,35 @@ services:
 http://www.naturalhistorymag.com/htmlsite/master.html?http://www.naturalhistorymag.com/htmlsite/0406/0406_feature.html <!-- .element: class="credits" -->
 
 <!-- Search for "open mouth whale on google images" -->
+
+----
+
+## Sample application 2
+
+Static site on Nginx
+
+Note:
+A simple, static website (actualy only a page)
+running on nginx
+
+====
+
+Running the **HTTP server** on Docker
+
+====
+
+```yml
+version: '2'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - "./:/usr/share/nginx/html:ro"
+```
+
+====
+
+![nginx-example](img/example-nginx.jpg)
