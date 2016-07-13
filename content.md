@@ -362,15 +362,18 @@ a lot.
 
 ## Managing dependencies should be easy
 
+Note:
+Lets stick with the main topic now!
+
 ====
 <!-- .slide: data-transition="slide-in fate-out" -->
 
 ### Potential application
 
 - Ruby on Rails app
-- PostgreSQL Database <!-- .element: class="fragment" -->
-- Redis for Sidekick Worker <!-- .element: class="fragment" -->
-- Elasticsearch for full-text searches <!-- .element: class="fragment" -->
+- PostgreSQL Database <!-- .element: class="fragment fade-up" -->
+- Redis for Sidekick Worker <!-- .element: class="fragment fade-up" -->
+- Elasticsearch for full-text searches <!-- .element: class="fragment fade-up" -->
 
 Note:
 Lets consider this potential, very common,
@@ -381,12 +384,25 @@ appication.
 
 ### Potential application
 
-- My code
-  + Ruby on Rails app
-- Volatile data
-  + PostgreSQL Database
-  + Redis for Sidekick Worker
-  + Elasticsearch for full-text searches
+- Ruby on Rails app <!-- .element: class="red" -->
+- PostgreSQL Database <!-- .element: class="fragment highlight-blue" data-fragment-index="2" -->
+- Redis for Sidekick Worker <!-- .element: class="fragment highlight-blue" data-fragment-index="2" -->
+- Elasticsearch for full-text searches <!-- .element: class="fragment highlight-blue" data-fragment-index="2" -->
+
+Note:
+What is realy important for me when I'm developing?
+
+====
+<!-- .slide: data-transition="fade" -->
+
+### Potential application
+
+- My code <!-- .element: class="red" -->
+  + Ruby on Rails app <!-- .element: class="red" -->
+- Volatile data <!-- .element: class="blue" -->
+  + PostgreSQL Database <!-- .element: class="blue" -->
+  + Redis for Sidekick Worker <!-- .element: class="blue" -->
+  + Elasticsearch for full-text searches <!-- .element: class="blue" -->
 
 Note:
 The only layer I'm always working on is the
@@ -398,12 +414,12 @@ bother on configuring.
 
 ### Potential application
 
-- Host Machine
-  + Ruby on Rails app
-- Docker containers
-  + PostgreSQL Database
-  + Redis for Sidekick Worker
-  + Elasticsearch for full-text searches
+- Host Machine <!-- .element: class="red" -->
+  + Ruby on Rails app <!-- .element: class="red" -->
+- Docker containers <!-- .element: class="blue" -->
+  + PostgreSQL Database <!-- .element: class="blue" -->
+  + Redis for Sidekick Worker <!-- .element: class="blue" -->
+  + Elasticsearch for full-text searches <!-- .element: class="blue" -->
 
 Note:
 So, I could have only the Rails app on my machine
@@ -411,7 +427,9 @@ and let everything else on containers.
 
 ====
 
-### Do not install what you won't actively use
+### Do not install
+
+...what you won't actively use
 
 - Cache stores
 - CI Services
@@ -429,10 +447,10 @@ to change/configure/edit frequently.
 
 ====
 
-#### Why not?
+### Why not?
 
 - difficult to install
-- version restrictions across different environments
+- version restrictions
 - waste of system resources
 - waste of time
 

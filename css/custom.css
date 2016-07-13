@@ -61,6 +61,12 @@ big text
 }
 
 /*
+colors
+ */
+.red { color: #ff2c2d; }
+.blue { color: #1b91ff; }
+
+/*
 Truncate text/links
  */
 .more {
