@@ -25,6 +25,9 @@ Note:
 A programmer, as said on reddit, had 6 years
 doing nothing after automatic some test tasks.
 
+THIS TALK IS FOR LAZY PEOPLE WHO PREFER TO
+AUTOMATE ITS'S TASKS.
+
 Image: Roy Batty, from Blade Runner movie (1982)
 
 ====
@@ -470,7 +473,7 @@ https://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrast
 
 ## Docker compose
 
-> Compose is a tool for defining and running multi-container Docker applications.
+> Defining and running multi-container Docker applications.
 
 Note:
 For now on, we'll be using Docker compose
@@ -479,9 +482,9 @@ For now on, we'll be using Docker compose
 
 ### Orchestration
 
-> **Orchestration** is the automated arrangement, coordination, and management of complex computer systems, middleware and services.
+> The automated arrangement, coordination, and management of complex computer systems, middleware and services.
 
-*Source: https://en.wikipedia.org/wiki/Orchestration_(computing)* <!-- .element: class="more" -->
+<small>*Source: https://en.wikipedia.org/wiki/Orchestration_(computing)*</small> <!-- .element: class="more" -->
 
 Note:
 Compose basicly does service orchestration.
@@ -523,7 +526,7 @@ Note:
 
 ## Sample application 1
 
-Ruby on Rails + PostgreSQL + Redis + ElasticSearch
+~~Ruby on Rails~~ + PostgreSQL + Redis + ElasticSearch
 
 Note:
 Learning by example.
@@ -562,3 +565,13 @@ services:
 ====
 
 <iframe data-autoplay src="https://asciinema.org/api/asciicasts/79064?size=big" id="asciicast-iframe-79064" name="asciicast-iframe-79064" scrolling="yes" width="100%" height="768"></iframe>
+
+====
+
+![oh](img/whale-oh.jpg)
+
+#### <b class="lowercase">Oh!</b> 😮
+
+http://www.naturalhistorymag.com/htmlsite/master.html?http://www.naturalhistorymag.com/htmlsite/0406/0406_feature.html <!-- .element: class="credits" -->
+
+<!-- Search for "open mouth whale on google images" -->
