@@ -219,6 +219,22 @@ that does not emulates hardware.
 
 ====
 
+### Images vs. Containers
+
+- A Docker **image** is a _read only_ layer that can
+  be packaged and distributed.
+- A Docker **container** is an instance of an image. it's
+  a _writable_ layer used to run commands or store data.
+
+Note:
+Images remain exactly the same wherever environment
+they are used.
+
+This is a Docker itself terminology. Other container
+plataforms may not consider that.
+
+====
+
 ![confused?](img/confused-whale.jpg)
 
 http://imgur.com/gallery/2qxNu2Z <!-- .element: class="credits" -->
@@ -248,17 +264,7 @@ environment.
 
 ====
 
-### Images vs. Containers
-
-- A Docker **image** is a _read only_ layer that can
-  be packaged and distributed.
-  + Images remain exactly the same wherever environment 
-    they are used. <!-- .element: class="fragment" -->
-- A Docker **container** is an instance of an image. it's
-  a _writable_ layer used to run commands or store data.
-====
-
-### What do we need?
+## What do we need?
 
 - Docker Engine
   + https://docker.com
@@ -269,15 +275,16 @@ environment.
 
 ====
 
-#### Docker Hub
-
 ![docker-hub](img/docker-hub.jpg)
 
 https://hub.docker.com/
 
+Note:
+Docker Hub
+
 ====
 
-### Installation
+## Installation
 
 - GNU/Linux
   + https://www.docker.com/products/docker#/linux
@@ -288,7 +295,7 @@ https://hub.docker.com/
 
 ====
 
-#### Note 1: Arch Linux
+### Arch Linux
 
 ```bash
 $ sudo pacman -Sy docker docker-compose
@@ -299,16 +306,36 @@ The easiest distro to install Docker
 
 ====
 
-#### Note 2: Mac and Windows
+### Mac and Windows
 
-##### Before
+#### Before 1.12
 
 - boot2docker (`until 1.7`)
+  + using VirtualBox
 - Docker Toolbox (`1.8 ~ 1.11`)
-  - with Docker Machine
+  + with Docker Machine
+    * ...that still uses VirtualBox
 
-<p></p>
-##### Now
+Note:
+Until version 1.11 Docker for Mac and Windows
+was not as easy to use, depending on a Virtual Box
+VM, environment variables and etc.
+
+====
+
+![lifting-docker](img/lifting-docker.jpg)
+
+https://teespring.com/lifting-a-docker <!-- .element: class="credits" -->
+
+Note:
+It worked well enough, but with lack
+of performance and some other issues.
+
+====
+
+### Mac and Windows
+
+#### Now (still in beta)
 
 - Docker for Mac (`since 1.12-rc2`)
   + requires Yosemite `10.10`
@@ -318,12 +345,18 @@ The easiest distro to install Docker
   + uses `Hyper-V`
 
 Note:
-Until version 1.11 Docker for Mac and Windows
-was not as easy to use, depending on a Virtual Box
-VM, environment variables and etc.
-
 Recenty, with 1.12, Docker uses a native client
 and native Hypervisors.
+
+====
+
+![docker-mac](img/docker-mac.jpg)
+
+https://blog.docker.com/2016/03/docker-for-mac-windows-beta/ <!-- .element: class="credits" -->
+
+Note:
+This improves docker under Mac and Windows
+a lot.
 
 ----
 
