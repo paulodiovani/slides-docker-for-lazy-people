@@ -363,7 +363,9 @@ a lot.
 
 ----
 
-## Managing dependencies should be easy
+## Managing dependencies
+
+## should be easy
 
 Note:
 Lets stick with the main topic now!
@@ -524,13 +526,22 @@ Note:
 
 ----
 
+# Demo time
+
+![devil-whale](img/devil-whale.jpg)
+
+https://drawception.com/panel/drawing/ux1y3336/hovering-jellybean-devilwhale-is-happy/ <!-- .element: class="credits" -->
+
+Note:
+Learning by example.
+
+----
+
 ## Sample application 1
 
 ~~Ruby on Rails~~ + PostgreSQL + Redis + ElasticSearch
 
 Note:
-Learning by example.
-
 Let's use our potential application services.
 
 ====
