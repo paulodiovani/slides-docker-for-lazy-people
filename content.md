@@ -187,48 +187,57 @@ I promise that this is a brief introduction.
 
 ====
 
-### Docker
+## Docker
 
-> **Docker** is an open-source project that automates the
-> deployment of applications inside software containers.
+> Build, Ship, and Run Any App, Anywhere
+
+&nbsp;
+
+- A plataform for working with software containers. <!-- .element: class="fragment" -->
 
 Note:
-Source Wikipedia
+The Docker ~~description~~ title on the main
+website.
+
+...and a free spech descrition.
 
 ====
 
-### Docker
+## Software container
 
-> Docker containers wrap a piece of software in a complete
-> filesystem that contains **everything needed** to run: code,
-> runtime, system tools, system libraries – anything that
-> can be installed on a server. This guarantees that the
-> software **will always run the same**, regardless of its
-> environment.
+> Operating-system-level virtualization
 
-Note:
-source https://www.docker.com/what-docker
+&nbsp;
 
-====
-
-### Software container
-
-> **Operating-system-level virtualization** is a server
-> virtualization method in which the kernel of an operating
-> system allows the existence of multiple isolated user-space
-> instances, instead of just one.
+- Virtualization without hardware emulation
 
 Note:
-Source Wikipedia
+a.k.a. Operating-system-level virtualization
 
-In other words, is a virtualization technique
+It is a virtualization technique
 that does not emulates hardware.
 
 ====
 
-Docker is **not** about virtualization, it is about *services*
+![confused?](img/confused-whale.jpg)
+
+http://imgur.com/gallery/2qxNu2Z <!-- .element: class="credits" -->
 
 Note:
+Oh, so Docker is used in place of virtualbox or
+vagrant? o.O
+
+No! It's not.
+
+====
+
+_Docker is **not** about virtualization,_ <!-- .element: class="big" -->
+
+_it is about **services**_ <!-- .element: class="big" -->
+
+Note:
+Notice that!
+
 The tricky (and greatest) thing about Docker is
 that it's made to run services, and not a full-fledged
 environment.
@@ -301,10 +310,10 @@ The easiest distro to install Docker
 <p></p>
 ##### Now
 
-- Docker for Mac (`since 1.12-rc3`)
+- Docker for Mac (`since 1.12-rc2`)
   + requires Yosemite `10.10`
   + uses a `xhyve` based Hypervisor
-- Docker for Windows (`since 1.12-rc3`)
+- Docker for Windows (`since 1.12-rc2`)
   + requires Window `10 64bit`
   + uses `Hyper-V`
 

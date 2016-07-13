@@ -54,6 +54,13 @@ Image credits
 }
 
 /*
+big text
+ */
+.big {
+  font-size: 1.5em !important;
+}
+
+/*
 Truncate text/links
  */
 .more {
