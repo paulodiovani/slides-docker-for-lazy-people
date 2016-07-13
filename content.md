@@ -10,6 +10,25 @@ reduce hard work
 
 ====
 
+About being lazy...
+
+> ## Finally fired after 6 years
+>
+> ![roy](img/roy.jpg)
+> https://www.engadget.com/2016/01/08/blade-runner-replicant-birthday/ <!-- .element: class="credits" -->
+
+<small>_Archive: https://web.archive.org/web/20160523114950/https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_ </small><!-- .element: class="more" -->
+<br>
+<small>~~_Original source: https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_~~</small><!-- .element: class="more" -->
+
+Note:
+A programmer, as said on reddit, had 6 years
+doing nothing after automatic some test tasks.
+
+Image: Roy Batty, from Blade Runner movie (1982)
+
+====
+
 <!-- .slide: class="half-slide" data-background="url(img/paulodiovani.jpg)" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="right" -->
 
 ### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
@@ -81,7 +100,7 @@ Note:
 >
 > ![future](img/future.jpg)
 
-_Source: https://circleci.com/blog/its-the-future/_
+<small>_Source: https://circleci.com/blog/its-the-future/_</small><!-- .element: class="more" -->
 
 Note:
 A fun post on circle-ci blog introduces Docker and containers
@@ -154,23 +173,6 @@ For me to start using it
 
 Note:
 In short, this is why
-
-====
-
-> ## Finally fired after 6 years
-> 
-> ![roy](img/roy.jpg)
-> https://www.engadget.com/2016/01/08/blade-runner-replicant-birthday/ <!-- .element: class="credits" -->
-
-~~_Source: https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_~~ <!-- .element: class="more" -->
-
-  _Archive: https://web.archive.org/web/20160523114950/https://www.reddit.com/r/cscareerquestions/comments/4km3yc/finally_fired_after_6_years/_ <!-- .element: class="more" -->
-
-Note:
-A programmer, as said on reddit, had 6 years
-doing nothing after automatic some test tasks.
-
-Image: Roy Batty, from Blade Runner movie (1982)
 
 ----
 
