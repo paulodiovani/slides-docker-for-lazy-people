@@ -603,6 +603,10 @@ Running the **HTTP server** on Docker
 
 ====
 
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79581?size=big" id="asciicast-iframe-79581" name="asciicast-iframe-79581" scrolling="yes" width="100%" height="768"></iframe>
+
+====
+
 ```yml
 version: '2'
 
