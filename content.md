@@ -629,3 +629,88 @@ http://photos.echeng.com/Underwater/Whale-Sharks-Isla-Mujeres/i-cNPVx4z/A <!-- .
 
 #### <b class="lowercase" style="font-size:1.2em">Ooh! 😮</b>
 
+----
+
+## Example application 3
+
+PHP + ~~Wordpress~~ + MySQL
+
+Note:
+Running Wordpress on a PHP container
+
+====
+
+- PHP interpreter on Docker
+- MySQL database on Docker
+
+Note:
+Notice that I DON'T have PHP installed on host
+
+====
+
+```yml
+version: '2'
+
+services:
+  web:
+    build: ./
+    depends_on: ["db"]
+    ports: ["8080:80"]
+    volumes: ["./:/var/www/html"]
+
+  db:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_ROOT_PASSWORD: root
+```
+
+Note:
+- Notice the `build` key on web service.
+- Notice the `depends_on` and `db` service name.
+  It'll be the hostname.
+
+====
+
+```dockerfile
+FROM php:apache
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    mysql-client
+
+# Add php extension
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+```
+
+Note:
+For this example, we need a Dockerfile.
+
+The Dockerfile only install some needed
+dependencies (mysql ext in the case).
+
+====
+
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79590?size=big" id="asciicast-iframe-79590" name="asciicast-iframe-79590" scrolling="yes" width="100%" height="768"></iframe>
+
+Note:
+On this cast, I only show the build and startup
+process.
+
+I wrote a wp-config.php before wp setup to save time.
+
+====
+
+![wordpress](img/wordpress.jpg)
+
+Note:
+After the services start, the app is available
+on port 8080 as before.
+
+====
+
+![ooh](img/whale-oh3.jpg)
+
+http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
+
+#### <b class="lowercase" style="font-size:1.4em">Ooh! 😮</b>
