@@ -617,6 +617,8 @@ services:
 
 <iframe data-autoplay src="https://asciinema.org/api/asciicasts/79581?size=big" id="asciicast-iframe-79581" name="asciicast-iframe-79581" scrolling="yes" width="100%" height="768"></iframe>
 
+Note:
+Files at `./demos/static`
 ====
 
 ![nginx-example](img/example-nginx.jpg)
@@ -694,6 +696,8 @@ dependencies (mysql ext in the case).
 <iframe data-autoplay src="https://asciinema.org/api/asciicasts/79590?size=big" id="asciicast-iframe-79590" name="asciicast-iframe-79590" scrolling="yes" width="100%" height="768"></iframe>
 
 Note:
+Files at `./demos/worpress`
+
 On this cast, I only show the build and startup
 process.
 
