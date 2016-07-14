@@ -537,7 +537,7 @@ Learning by example.
 
 ----
 
-## Sample application 1
+## Example application 1
 
 ~~Ruby on Rails~~ + PostgreSQL + Redis + ElasticSearch
 
@@ -589,7 +589,7 @@ http://www.naturalhistorymag.com/htmlsite/master.html?http://www.naturalhistorym
 
 ----
 
-## Sample application 2
+## Example application 2
 
 Static site on Nginx
 
