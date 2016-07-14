@@ -581,11 +581,9 @@ services:
 
 ![oh](img/whale-oh.jpg)
 
-#### <b class="lowercase">Oh!</b> 😮
-
 http://www.naturalhistorymag.com/htmlsite/master.html?http://www.naturalhistorymag.com/htmlsite/0406/0406_feature.html <!-- .element: class="credits" -->
 
-<!-- Search for "open mouth whale on google images" -->
+#### <b class="lowercase">Oh! 😮</b>
 
 ----
 
@@ -603,10 +601,6 @@ Running the **HTTP server** on Docker
 
 ====
 
-<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79581?size=big" id="asciicast-iframe-79581" name="asciicast-iframe-79581" scrolling="yes" width="100%" height="768"></iframe>
-
-====
-
 ```yml
 version: '2'
 
@@ -621,4 +615,17 @@ services:
 
 ====
 
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79581?size=big" id="asciicast-iframe-79581" name="asciicast-iframe-79581" scrolling="yes" width="100%" height="768"></iframe>
+
+====
+
 ![nginx-example](img/example-nginx.jpg)
+
+====
+
+![ooh](img/whale-oh2.jpg)
+
+http://photos.echeng.com/Underwater/Whale-Sharks-Isla-Mujeres/i-cNPVx4z/A <!-- .element: class="credits" -->
+
+#### <b class="lowercase" style="font-size:1.2em">Ooh! 😮</b>
+
