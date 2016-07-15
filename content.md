@@ -8,6 +8,9 @@ reduce hard work
 
 <small>Version 0.1.0</small>
 
+Note:
+We have cool whales for all over the talk. 🐋
+
 ====
 
 About being lazy...
@@ -635,6 +638,51 @@ http://photos.echeng.com/Underwater/Whale-Sharks-Isla-Mujeres/i-cNPVx4z/A <!-- .
 
 ## Example application 3
 
+Node.js + Express
+
+Note:
+A simple http server with node.js
+
+====
+
+Running a Node.js application on Docker
+
+Note:
+Since Node.js store dependencies on `node_modules/`
+It's easy to run almost any app on Docker
+
+====
+
+```yml
+version: '2'
+
+services:
+  web:
+    image: node
+    command: ["npm", "start"]
+    working_dir: /usr/src/app
+    volumes:
+      - "./:/usr/src/app"
+    ports:
+      - "8080:8080"
+```
+
+Note:
+In this example, we had to set workdir and
+a command (particularity of this image)
+
+====
+
+![ooh](img/whale-oh3.jpg)
+
+http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
+
+#### <b class="lowercase" style="font-size:1.4em">Ooh! 😮</b>
+
+----
+
+## Example application 3
+
 PHP + ~~Wordpress~~ + MySQL
 
 Note:
@@ -713,8 +761,8 @@ on port 8080 as before.
 
 ====
 
-![ooh](img/whale-oh3.jpg)
+![ooh](img/whale-oh4.jpg)
 
-http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
+https://www.emaze.com/@ACQFZLZO/Basking-Shark <!-- .element: class="credits" -->
 
-#### <b class="lowercase" style="font-size:1.4em">Ooh! 😮</b>
+#### <b class="lowercase" style="font-size:1.6em">Ooh! 😮</b>
