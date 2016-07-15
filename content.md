@@ -582,11 +582,14 @@ services:
 
 ====
 
-![oh](img/whale-oh.jpg)
+![beluga](img/oh-beluga.jpg)
 
-http://www.naturalhistorymag.com/htmlsite/master.html?http://www.naturalhistorymag.com/htmlsite/0406/0406_feature.html <!-- .element: class="credits" -->
+http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
 
 #### <b class="lowercase">Oh! 😮</b>
+
+Note:
+Beluga
 
 ----
 
@@ -628,11 +631,14 @@ Files at `./demos/static`
 
 ====
 
-![ooh](img/whale-oh2.jpg)
+![whale-shark](img/oh-whale-shark.jpg)
 
 http://photos.echeng.com/Underwater/Whale-Sharks-Isla-Mujeres/i-cNPVx4z/A <!-- .element: class="credits" -->
 
 #### <b class="lowercase" style="font-size:1.2em">Ooh! 😮</b>
+
+Note:
+Whale shark
 
 ----
 
@@ -673,11 +679,14 @@ a command (particularity of this image)
 
 ====
 
-![ooh](img/whale-oh3.jpg)
+![basking-shark](img/oh-basking-shark.jpg)
 
-http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
+https://www.emaze.com/@ACQFZLZO/Basking-Shark <!-- .element: class="credits" -->
 
 #### <b class="lowercase" style="font-size:1.4em">Ooh! 😮</b>
+
+Note:
+Basking Shark
 
 ----
 
@@ -761,8 +770,11 @@ on port 8080 as before.
 
 ====
 
-![ooh](img/whale-oh4.jpg)
+![humpback-whale](img/oh-humpback-whale.jpg)
 
-https://www.emaze.com/@ACQFZLZO/Basking-Shark <!-- .element: class="credits" -->
+http://io9.gizmodo.com/watch-these-humpback-whales-come-within-feet-of-gobblin-870896136 <!-- .element: class="credits" -->
 
 #### <b class="lowercase" style="font-size:1.6em">Ooh! 😮</b>
+
+Note:
+Humpback Whale
