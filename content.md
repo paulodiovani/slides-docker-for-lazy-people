@@ -625,6 +625,7 @@ services:
 
 Note:
 Files at `./demos/static`
+
 ====
 
 ![nginx-example](img/example-nginx.jpg)
@@ -676,6 +677,13 @@ services:
 Note:
 In this example, we had to set workdir and
 a command (particularity of this image)
+
+====
+
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79789?size=big" id="asciicast-iframe-79789" name="asciicast-iframe-79789" scrolling="yes" width="100%" height="768"></iframe>
+
+Note:
+Files at `./demos/express`
 
 ====
 
