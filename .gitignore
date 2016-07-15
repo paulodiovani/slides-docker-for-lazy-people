@@ -1,1 +1,9 @@
 bower_components
+
+# demo applications
+demos/wordpress/*
+!demos/wordpress/Makefile
+!demos/wordpress/Dockerfile
+!demos/wordpress/docker-compose.yml
+
+demos/express/node_modules
