@@ -4,7 +4,7 @@
   "authors": [
     "Paulo Diovani <paulo@diovani.com>"
   ],
-  "description": "Or how to use docker to leverage dependency management and reduce hard work",
+  "description": "Docker to leverage dependency management and reduce work",
   "main": [
     "css/custom.css",
     "img/*.{jpg,png,svg}",
