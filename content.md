@@ -580,6 +580,9 @@ services:
 
 <iframe data-autoplay src="https://asciinema.org/api/asciicasts/79064?size=big" id="asciicast-iframe-79064" name="asciicast-iframe-79064" scrolling="yes" width="100%" height="768"></iframe>
 
+Note:
+Files at `./demos/databases`
+
 ====
 
 ![beluga](img/oh-beluga.jpg)
