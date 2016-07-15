@@ -578,7 +578,7 @@ services:
 
 ====
 
-<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79064?size=big" id="asciicast-iframe-79064" name="asciicast-iframe-79064" scrolling="yes" width="100%" height="768"></iframe>
+<iframe data-autoplay src="https://asciinema.org/api/asciicasts/79790?size=big" id="asciicast-iframe-79790" name="asciicast-iframe-79790" scrolling="yes" width="100%" height="768"></iframe>
 
 Note:
 Files at `./demos/databases`
