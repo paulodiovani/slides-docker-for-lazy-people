@@ -766,7 +766,7 @@ Humpback Whale
 
 ====
 
-By using Docker, software dependencies may be...
+With Docker, software dependencies may be...
 
 - Easy to setup and manage
 - Started with a single command
@@ -775,6 +775,8 @@ By using Docker, software dependencies may be...
 ====
 
 ...and without touching the _Host_
+
+![happy-dolphin](img/oh-dolphin.gif)
 
 ====
 
