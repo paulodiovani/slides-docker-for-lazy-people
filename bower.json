@@ -7,7 +7,7 @@
   "description": "Docker to leverage dependency management and reduce work",
   "main": [
     "css/custom.css",
-    "img/*.{jpg,png,svg}",
+    "img/*.{jpg,png,svg,gif}",
     "js/pointer-fix.js",
     "content.md",
     "cover.jpg",

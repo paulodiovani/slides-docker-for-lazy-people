@@ -6,7 +6,7 @@ https://www.flickr.com/photos/37060680@N04/4441496167 <!-- .element: class="cred
 Or how to use Docker to leverage dependency management and
 reduce hard work
 
-<small>Version 0.2.0</small>
+<small>Version 0.2.1</small>
 
 Note:
 We have cool whales for all over the talk. 🐋
