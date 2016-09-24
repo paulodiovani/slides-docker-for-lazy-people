@@ -527,7 +527,7 @@ Running **only dependencies** on Docker
 
 Note:
 In this example, we'll ignore the app and
-just dealwith dependencies.
+just deal with dependencies.
 
 ====
 
@@ -559,13 +559,10 @@ Files at `./demos/databases`
 
 ====
 
-> <b class="big">Oh! 😮</b>
+> That was fun. :)
 
-![beluga](img/oh-beluga.jpg)
-http://www.strangedangers.com/content/item/144262.html <!-- .element: class="credits" -->
-
-Note:
-Beluga
+![fun](img/whale-fun.gif) <!-- .element: class="wide" -->
+http://giphy.com <!-- .element: class="credits" -->
 
 ----
 
@@ -608,13 +605,10 @@ Files at `./demos/static`
 
 ====
 
-> <b class="big">Ooh! 😮</b>
+> Yuppie! :D
 
-![whale-shark](img/oh-whale-shark.jpg)
-http://photos.echeng.com/Underwater/Whale-Sharks-Isla-Mujeres/i-cNPVx4z/A <!-- .element: class="credits" -->
-
-Note:
-Whale shark
+![jump](img/whale-jump.gif) <!-- .element: class="stretch" -->
+http://giphy.com <!-- .element: class="credits" -->
 
 ----
 
@@ -662,13 +656,10 @@ Files at `./demos/express`
 
 ====
 
-> <b class="big">Oooh! 😮</b>
+> Easy, right? ;)
 
-![basking-shark](img/oh-basking-shark.jpg)
-https://www.emaze.com/@ACQFZLZO/Basking-Shark <!-- .element: class="credits" -->
-
-Note:
-Basking Shark
+![yes](img/whale-yes.gif) <!-- .element: class="stretch" -->
+http://giphy.com <!-- .element: class="credits" -->
 
 ----
 
@@ -752,31 +743,26 @@ on port 8080 as before.
 
 ====
 
-> <b class="big">Oooh! 😮</b>
+> Amazing! :o
 
-![humpback-whale](img/oh-humpback-whale.jpg)
-http://io9.gizmodo.com/watch-these-humpback-whales-come-within-feet-of-gobblin-870896136 <!-- .element: class="credits" -->
-
-Note:
-Humpback Whale
+![lol](img/whale_dolphin_-lol.gif)<!-- .element: class="stretch" -->
+http://giphy.com <!-- .element: class="credits" -->
 
 ----
 
 # Conclusion
-
-====
 
 With Docker, software dependencies may be...
 
 - Easy to setup and manage
 - Started with a single command
 - Always on correct versions
+- and without touching the _Host_
 
 ====
 
-...and without touching the _Host_
-
-![happy-dolphin](img/oh-dolphin.gif)
+![kiss](img/whale-kiss.gif) <!-- .element: class="stretch" -->
+http://giphy.com <!-- .element: class="credits" -->
 
 ====
 

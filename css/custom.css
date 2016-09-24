@@ -68,6 +68,20 @@ small text
 }
 
 /*
+50% width
+ */
+.stretch {
+  width: 50%;
+}
+
+/*
+100% width
+ */
+.wide {
+  width: 100%;
+}
+
+/*
 colors
  */
 .red { color: #ff2c2d; }
