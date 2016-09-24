@@ -6,12 +6,44 @@ https://www.flickr.com/photos/37060680@N04/4441496167 <!-- .element: class="cred
 Or how to use Docker to leverage dependency management and
 reduce hard work
 
-<small>Version 0.1.5</small>
+<small>Version 0.2.0</small>
 
 Note:
 We have cool whales for all over the talk. 🐋
 
 ====
+
+`update 0.2.0` - Now with GIFs!
+
+![rainbow](img/whale-rainbow.gif)
+http://stefanieshank.tumblr.com/post/145720185704/orca-blog-insta <!-- .element: class="credits" -->
+
+====
+
+<!-- .slide: class="half-slide" data-background="url(img/paulodiovani.jpg)" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="right" -->
+
+### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
+
+Technologist in Internet Systems by Feevale University.
+Software Enginer at Codeminer 42.
+GNU/Linux user since 2005.
+
+[blog.diovani.com][blog]
+
+[slides.diovani.com][slides]
+
+[@paulodiovani][twitter]
+
+[![codeminer42][code-logo]][code-site] <!-- .element: class="no-border no-background" -->
+
+[avatar]: img/avatar.jpg
+[blog]: http://blog.diovani.com
+[slides]: http://slides.diovani.com
+[twitter]: http://twitter.com/paulodiovani
+[code-logo]: img/codeminer42.png
+[code-site]: http://codeminer42.com/
+
+----
 
 About being lazy...
 
@@ -35,28 +67,28 @@ Image: Roy Batty, from Blade Runner movie (1982)
 
 ====
 
-<!-- .slide: class="half-slide" data-background="url(img/paulodiovani.jpg)" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="right" -->
+**This is NOT a talk about _bots_ 🤖.** <!-- .element: class="big" -->
 
-### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
+<span>For that, ask [@hannelita][htt]</span> <!-- .element: class="small" -->
+![hannelita][hta]
 
-Technologist in Systems for Internet by Feevale University.
-Software Enginer at Codeminer 42.
-GNU/Linux user since 2005.
+[htt]: https://twitter.com/hannelita/
+[hta]: img/hannelita.png
 
-[blog.diovani.com][blog]
+Note:
+I'm not speaking about bots, but in automating
+frequent or worksome tasks.
 
-[slides.diovani.com][slides]
+====
 
-[@paulodiovani][twitter]
+### Automation in Ruby ecosystem
 
-[![codeminer42][code-logo]][code-site] <!-- .element: class="no-border no-background" -->
+- rspec tests
+- migrations
+- rake tasks
 
-[avatar]: img/avatar.jpg
-[blog]: http://blog.diovani.com
-[slides]: http://slides.diovani.com
-[twitter]: http://twitter.com/paulodiovani
-[code-logo]: img/codeminer42.png
-[code-site]: http://codeminer42.com/
+Note:
+We are used to have automated tasks in ruby, already.
 
 ----
 
